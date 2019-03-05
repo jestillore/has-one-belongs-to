@@ -42,6 +42,8 @@ class Course
 
 class User
 {
+    use HasOneBelongsToRelationship;
+    
     public function course()
     {
         return $this->hasOneBelongsTo(Course::class, 'student_data');
