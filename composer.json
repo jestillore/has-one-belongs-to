@@ -1,0 +1,20 @@
+{
+    "name": "jestillore/has-one-belongs-to",
+    "description": "One-To-One Relationship with Pivot for Laravel Eloquent",
+    "type": "library",
+    "require": {
+        "illuminate/database": "^5.8"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jillberth Estillore",
+            "email": "ejillberth@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Jestillore\\HasOneBelongsTo\\": "src/"
+        }
+    }
+}
