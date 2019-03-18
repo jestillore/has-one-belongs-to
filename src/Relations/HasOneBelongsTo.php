@@ -12,7 +12,7 @@ class HasOneBelongsTo extends BelongsToMany
      */
     public function getResults()
     {
-        return $this->query->first();
+        return parent::getResults()->first();
     }
 
     /**
