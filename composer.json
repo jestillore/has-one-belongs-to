@@ -1,5 +1,6 @@
 {
     "name": "jestillore/has-one-belongs-to",
+    "version": "5.6.1",
     "description": "One-To-One Relationship with Pivot for Laravel Eloquent",
     "type": "library",
     "require": {
