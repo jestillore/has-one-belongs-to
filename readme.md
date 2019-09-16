@@ -53,7 +53,7 @@ class User
 
 ## Versioning
 
-The decision is to match the package's version to the current version of `illuminate/database`.
+I decided to drop the whole syncing with illuminate version thing to avoid upgrading every time laravel upgrades to a new version.
 
 ## Author
 
